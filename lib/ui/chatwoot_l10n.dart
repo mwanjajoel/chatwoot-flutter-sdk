@@ -34,13 +34,13 @@ class ChatwootL10n extends ChatL10n {
       {this.attachmentButtonAccessibilityLabel = "",
       this.emptyChatPlaceholder = "",
       this.fileButtonAccessibilityLabel = "",
-      this.onlineText = "Typically replies in a few hours",
-      this.offlineText = "We're away at the moment",
+      this.onlineText = "",
+      this.offlineText = "",
       this.typingText = "typing...",
       this.inputPlaceholder = "Type your message",
       this.sendButtonAccessibilityLabel = "Send Message",
       this.conversationResolvedMessage =
-          "Your ticket has been marked as resolved"})
+          ""})
       : super(
           attachmentButtonAccessibilityLabel:
               attachmentButtonAccessibilityLabel,
